@@ -1,0 +1,594 @@
+# tile0
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 5
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [0, 1, 0]
+    - [0]
+  cloister: true
+  cityNeighbors: {}
+
+
+# tile1
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 4
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [0]
+    - [0]
+  cloister: true
+  cityNeighbors: {}
+
+# tile2
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 4
+      pennants: 1
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [0]
+    - [0]
+  cloister: false
+  cityNeighbors: {}
+
+# tile3
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0, 1, 2]
+    - [3]
+    - [2, 1, 0]
+    - [0]
+  cloister: false
+  cityNeighbors: {3: [2]}
+
+# tile4
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1]
+    - [1]
+    - [1]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile5
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 2
+      pennants: 1
+      #followers: {}
+  positions:
+    - [0]
+    - [2]
+    - [1]
+    - [2]
+  cloister: false
+  cityNeighbors: {2: [0, 1]}
+
+# tile6
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [2]
+    - [0]
+    - [2]
+    - [1]
+  cloister: false
+  cityNeighbors: {2: [0, 1]}
+
+# tile7
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1]
+    - [0]
+    - [2]
+  cloister: false
+  cityNeighbors: {
+    1: [0],
+    2: [0]
+  }
+
+# tile8
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1]
+    - [2]
+    - [0]
+  cloister: false
+  cityNeighbors: {
+    1: [0],
+    2: [0]
+  }
+
+# tile9
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1, 2, 3]
+    - [3, 2, 1]
+    - [1]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile10
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0, 1, 2]
+    - [3]
+    - [2]
+    - [2, 1, 0]
+  cloister: false
+  cityNeighbors: {3: [2]}
+
+# tile11
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: CITY
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0, 3, 1]
+    - [6]
+    - [1, 4, 2]
+    - [2, 5, 0]
+  cloister: false
+  cityNeighbors: {6: [1]}
+
+# tile12
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 2
+      pennants: 1
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1]
+    - [1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile13
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1]
+    - [1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile14
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 2
+      pennants: 1
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1, 2, 3]
+    - [3, 2, 1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile15
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [1, 2, 3]
+    - [3, 2, 1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile16
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 3
+      pennants: 1
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile17
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [1]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1]}
+
+# tile18
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 3
+      pennants: 1
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [1, 2, 3]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1, 3]}
+
+# tile19
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: CITY
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [1, 2, 3]
+    - [0]
+  cloister: false
+  cityNeighbors: {0: [1, 3]}
+
+# tile20
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0, 1, 2]
+    - [2]
+    - [2, 1, 0]
+    - [0]
+  cloister: false
+  cityNeighbors: {}
+
+# tile21
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 4
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0]
+    - [0, 1, 2]
+    - [2, 1, 0]
+  cloister: false
+  cityNeighbors: {}
+
+# tile22
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 3
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0]
+    - [0, 3, 1]
+    - [1, 4, 2]
+    - [2, 5, 0]
+  cloister: false
+  cityNeighbors: {}
+
+# tile23
+- !!edu.cmu.cs.cs214.hw4.element.bean.TileBean
+  segments:
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: FIELD
+      open: 2
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+    - segmentType: ROAD
+      open: 1
+      pennants: 0
+      #followers: {}
+  positions:
+    - [0, 4, 1]
+    - [1, 5, 2]
+    - [2, 6, 3]
+    - [3, 7, 0]
+  cloister: false
+  cityNeighbors: {}
