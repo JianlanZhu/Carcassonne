@@ -4,7 +4,7 @@ This project is the implementation of game Carcassonne. Here is the game introdu
 
 ## Getting Started
 
-This project is mainly about the logistics implementation of game Carcassonne. There are 3 main folders for this project. It is actually a class project, I did not change the directory structure here so you can not play this version. This version is just for reviewing codes. If you do want to play, you could contact me. The email address is at the end of this ReadMe.
+This project is mainly about the logistics implementation of game Carcassonne. There are 3 main folders for this project. It is actually a class project. We are not allowed to show the original project so I deleted some important part of project just to show my codes here and you can not play this version. If you do want to play, you could contact me. The email address is at the end of this ReadMe.
 
 1. core
 * _**GameController.java**_: mainly handles all kinds of users interactions   with the game and  players' score calculation
